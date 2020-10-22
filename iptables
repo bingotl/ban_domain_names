@@ -3,6 +3,7 @@
 :INPUT ACCEPT [1205:1161583]
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [803:1186683]
+-A OUTPUT -p tcp -m string --string "aboluowang.com" --algo bm --to 65535 -j DROP
 -A OUTPUT -p tcp -m string --string "dafahao.com" --algo bm --to 65535 -j DROP
 -A OUTPUT -p tcp -m string --string "zhengjian.com" --algo bm --to 65535 -j DROP
 -A OUTPUT -p tcp -m string --string "zhengjian.org" --algo bm --to 65535 -j DROP
