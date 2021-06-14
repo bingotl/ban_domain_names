@@ -1,2 +1,2 @@
-# ban_domain_names
+# ban_domain_names_for_iptables
 iptables通过屏蔽域名审计网站
