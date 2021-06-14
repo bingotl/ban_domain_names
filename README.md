@@ -1,2 +1,2 @@
 # ban_ips
-iptables审计网站
+iptables通过屏蔽域名审计网站
